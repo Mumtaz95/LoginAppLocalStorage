@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="app.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Sign Up</h1>
+    </div>
+    <div class="register">
+        <h1>Register</h1>
+        <input type="text" id="userName" placeholder="Name:" class="margin" required>
+        <br>
+        <input type="text" id="userEmail" placeholder="Email:" class="margin" required>
+        <br>
+        <input type="password" id="userPassword" placeholder="********" maxlength="8" class="margin" required>
+        <br>
+        <input type="text" id="userCity" placeholder="Your City">
+        <br>
+        <input type="submit" value="Sign Up" id="btn-Submit" onclick="add()">
+        <input type="submit" value="Cancel" id="btn-Cancel" onclick="cancel()">
+        <a href="login.html"><input type="submit" value="Login" class="btn-login"></a>
+
+    </div>
+</body>
+
+</html>
